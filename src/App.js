@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
 import Icosahedron from './Icosahedron'
+import BarGraph from './bargraph';
 
 function App() {
   return (
     <div id='sceneHolder'>
       <Icosahedron/>
-      <Icosahedron/>
+      <BarGraph/>
     </div>
   );
 }
